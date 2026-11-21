@@ -1,3 +1,5 @@
+import "./Hero.css";
+
 function Hero() {
     return (
         <section className="hero" id="home">
@@ -28,3 +30,5 @@ function Hero() {
         </section>
     );
 }
+
+export default Hero;
