@@ -1,13 +1,11 @@
 .about {
   padding: 100px 8%;
   background-color: #f8fafc;
-  border: 2px solid #0f172a; /*Remove this*/
 }
 
 .about-content {
   max-width: 900px;
   margin: 0 auto;
-  border: 2px solid #0f172a; /*Remove this*/
 }
 
 .about h2 {
