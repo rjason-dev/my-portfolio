@@ -33,3 +33,41 @@
 .nav-links a:hover {
   color: #38bdf8;
 }
+
+/* Hamburger button */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #111827;
+    padding: 20px 8%;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
